@@ -8,3 +8,4 @@ def singleton(_class: Type):
             setattr(_class, name, _class(*args))
         return getattr(_class, name)
     return inner
+
